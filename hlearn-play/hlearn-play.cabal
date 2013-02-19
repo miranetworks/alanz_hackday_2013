@@ -1,0 +1,35 @@
+Name:                hlearn-play
+Version:             0.0.1
+Synopsis:            Playiong with the HLearn library
+Description:         Playing
+Category:            Data Mining, Machine Learning, Statistics
+License:             GPL
+--License-file:        LICENSE
+Author:              Alan Zimmerman/Mike izbicki
+Maintainer:          alan.zimm@gmail.com
+Build-Type:          Simple
+Cabal-Version:       >=1.8
+homepage:            http://github.com/miranetworks/alanz_hackday_2013
+bug-reports:         http://github.com/miranetworks/alanz_hackday_2013/issues
+
+Executable main
+    Main-is: main.hs
+    Build-Depends:      
+        HLearn-algebra              >= 0.0.1,
+        ConstraintKinds             >= 0.0.1,
+        HLearn-distributions        >= 0.0.1,
+        strptime,
+        time, 
+        base                        >= 3 && < 5,
+        bytestring,
+        cassava,
+        lens,
+        Chart,
+        Chart-gtk,
+        -- criterion                   >= 0.6.1.1,
+        vector
+        -- statistics
+    ghc-options: 
+        
+
+        
